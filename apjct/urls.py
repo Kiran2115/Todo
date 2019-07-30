@@ -23,7 +23,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('todos/', include('todolist.urls')),
     path('users/', include('users.urls')),
-    path('auth/', include('rest_framework.urls')),
+    path('auth-api/', include('rest_framework.urls')),
+
+
+
+
 
 
     # path('todos/', views. Todo_list),
